@@ -1,0 +1,1 @@
+SELECT * FROM task2 t1 ORDER BY (SELECT MAX(Date) FROM task2 t2 WHERE t1.Phone = t2.Phone), Date
